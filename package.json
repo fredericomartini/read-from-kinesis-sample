@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1228.0",
+    "kinesis-readable": "^1.2.0",
+    "kinesis-streams": "^0.12.0"
+  },
+  "scripts": {
+    "readFromKinesis": "node read-from-kinesis.js",
+    "readFromKinesis:dev": "npm run readFromKinesis dev",
+    "readFromKinesis:qa": "npm run readFromKinesis qa",
+    "readFromKinesis:uat": "npm run readFromKinesis uat",
+    "readFromKinesis:devlab": "npm run readFromKinesis devlab"
+  }
+}
